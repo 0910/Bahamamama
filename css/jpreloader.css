@@ -1,0 +1,88 @@
+body{
+	display:none;
+}
+#jpreOverlay {
+	background:#202020 url(../img/bg.jpg) repeat top center;
+	background-attachment: fixed;
+}
+#jpreSlide{
+	font-size:22px;
+	font-weight:bold;
+	color:#ccc;
+	text-align:center;
+	width:50%;
+	height:30%;
+	display: none;
+}
+#jpreLoader{
+	width:300px;
+	height:1px;
+}
+#jpreBar {
+	background-color:#fff;
+	animation: progress 2s linear infinite;
+	-moz-animation: progress 2s linear infinite;
+	-webkit-animation: progress 2s linear infinite;
+	-ms-animation: progress 2s linear infinite;
+	-o-animation: progress 2s linear infinite;	
+}
+#jprePercentage {
+	color:#fff;
+	text-align:center;
+	font-family: 'GothamBook';
+	font-size: 14px;
+	text-align:center;
+	margin-top:15px;
+}
+
+#jpreButton{
+	padding:3px 10px;
+	cursor:pointer;
+	text-align:center;
+	font-family: 'GothamBook';
+	font-size: 14px;
+	margin:0 auto;
+	margin-top:20px;
+	color:#fff;
+}
+
+@-webkit-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-moz-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-ms-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-o-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
